@@ -23,7 +23,7 @@ function App() {
       <div
         className="h-screen w-screen flex flex-col items-center p-10"
         style={{
-          backgroundColor: 'black',
+          backgroundColor: "black",
           backgroundImage: `url(https://picsum.photos/800/600/?blur)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
