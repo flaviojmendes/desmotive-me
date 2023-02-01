@@ -1,8 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Courgette&display=swap");
-.f-handwritten {
+@import url("https://fonts.googleapis.com/css2?family=Niconne+Fatface&family=Courgette&display=swap");
+
+.f-handwritten,
+.update-button {
   font-family: "Courgette", cursive;
 }
-
 
 .t-outline {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
@@ -10,5 +11,5 @@
 }
 
 .t-quote {
-  font-family: "Abril Fatface", cursive;
+  font-family: "Niconne", cursive;
 }
