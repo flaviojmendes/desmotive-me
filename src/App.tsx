@@ -23,16 +23,20 @@ function App() {
       <div
         className="h-screen w-screen flex flex-col items-center p-10"
         style={{
-          backgroundColor: 'black',
+          backgroundColor: "black",
           backgroundImage: `url(https://picsum.photos/800/600/?blur)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
         }}
       >
-        <h1 className="text-5xl f-handwritten text-white t-outline">
+        <h1
+          onClick={() => setQuote(_.sample(quotes) || "")}
+          className="text-5xl f-handwritten text-white t-outline cursor-pointer"
+        >
           desmotive.me
         </h1>
+        <img src="../public/cursor.png" style={{width:50,marginLeft:300}} alt="" />
 
         <div className="text-center flex flex-col grow mx-4 md:mx-20 p-2 min-h-[100px]">
           <h1 className="t-quote  m-auto text-white bg-black bg-opacity-50 rounded-md p-10 text-lg md:text-3xl">
